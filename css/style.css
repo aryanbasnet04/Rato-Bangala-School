@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  
+}
+html{
+  font-size: 10px;
+}
+ .main-li{
+  list-style: none;
+  border-right: 2px solid black;
+  padding-right: 0.8rem;
+  
+  /*  */
+}
+.a-targeted{
+  color: red;
+}
+.main-li-home{
+  border-left:2px solid black ;
+  padding-left: 0.8rem;
+}
+.header{
+  /* background-color: #fdf2e9; */
+  height: 9rem;
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=360');
+}
+.main-ul{
+  display: flex;
+  gap: 2.4rem;
+  justify-content: flex-end;
+  margin-left: 10.4rem;
+
+}
+.main-a{
+text-decoration: none;
+font-size: 2rem;
+color: #000;
+/* padding-right: 1.2rem; */
+}
+.main-a:hover{
+  color: #fc2f2f;
+  border-bottom: 2px solid red;
+}
+.rbs-name{
+  font-family: 'Monotype Corsiva';
+    font-size: 4.8rem;
+    color: #fc2f2f;
+    line-height: 9rem;
+    margin-left: 2rem;
+}
+.container-header{
+  display: flex;
+  align-items: center;
+  gap: 8.4rem; 
+}
+.container-1{
+  display: flex;
+}
+main{
+background-image: url("https://www.ratobangala.edu.np/sites/default/files/slider1_0.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 64rem;
+}
+.h1-slogan{
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  /* margin-top: 2.4rem; */
+  padding-top: 26.4rem;
+  font-size: 6.4rem;
+  margin-right: 5.4rem;
+
+}
+.learn_more{
+  display: inline-block;
+  margin-left: 60rem;
+  font-size: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  background-color: red;
+  color: #fff;
+  border: #000;
+  margin-top: 2.4rem;
+  cursor: pointer;
+}
+.learn_more:hover{
+  font-weight: 700;
+}
+.section-title{
+  color: #fc2f2f;
+}
+.section-1{
+  width: 50%;
+  font-size: 1.6rem;
+  background-color: #e4f2e8;
+  margin-top: 2.4rem;
+}
+.p-mission{
+  margin-left: 7.4rem;
+}
+.section-2{
+  margin-top: 2.4rem;
+  width: 50%;
+  font-size: 1.6rem;
+  padding: 1.6rem 2.4rem;
+  background-color: #e4f2e8;
+}
+.section{
+  width: 80%;
+  margin: 0 auto;
+}
